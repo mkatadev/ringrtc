@@ -19,7 +19,7 @@ endif
 
 BUILD_TYPES := release debug
 
-GN_ARCHS     := arm arm64 x86 x64
+GN_ARCHS     := arm
 
 help:
 	$(Q) echo "The following build targets are supported:"

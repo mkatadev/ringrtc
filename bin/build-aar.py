@@ -29,7 +29,8 @@ except ImportError as e:
     raise ImportError(str(e) + '- required module not found')
 
 
-ARCHS = ['arm', 'arm64', 'x86', 'x64']
+DEFAULT_ARCHS = ['arm']
+ARCHS = DEFAULT_ARCHS
 NINJA_TARGETS = ['ringrtc']
 JAR_FILES = [
     'lib.java/sdk/android/libwebrtc.jar',
